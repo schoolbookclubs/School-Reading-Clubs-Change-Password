@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         messageDiv.textContent = '';
 
         try {
-            const response = await fetch('http://localhost:4000/api/password/change-password', {
+            const response = await fetch('https://school-book-clubs-backend.vercel.app/api/password/change-password', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
