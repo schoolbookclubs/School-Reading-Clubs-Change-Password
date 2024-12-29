@@ -7,7 +7,7 @@
     font-family: 'Cairo', sans-serif;
 }
 
-body {
+.content {
     background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
     min-height: 100vh;
     display: flex;
@@ -177,4 +177,30 @@ input:focus {
     .main-title h2 {
         font-size: 1.2rem;
     }
+}
+
+footer{
+    /*
+    class="text-center py-5 mt-5" style="background-color: #f8f9fa; border-top: 1px solid #e9ecef;"
+
+    */
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 5px;
+    margin-top: 5px;
+    border-top: 1px solid #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+footer p{
+  color: #666;
+}
+
+footer a{
+  text-decoration: none;
+  color:#000;
 }
